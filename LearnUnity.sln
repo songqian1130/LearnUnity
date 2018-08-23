@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnUnity.CSharp", "LearnUnity.CSharp.csproj", "{9E7286E4-90BC-0017-1354-73F9F66052C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnUnity.CSharp.Plugins", "LearnUnity.CSharp.Plugins.csproj", "{63D723E2-B9A1-1A1B-522C-1AFEF713AAC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnUnity.CSharp.Editor", "LearnUnity.CSharp.Editor.csproj", "{6C20E896-705B-2E51-DC31-61FA6A6517DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{9E7286E4-90BC-0017-1354-73F9F66052C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E7286E4-90BC-0017-1354-73F9F66052C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E7286E4-90BC-0017-1354-73F9F66052C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D723E2-B9A1-1A1B-522C-1AFEF713AAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D723E2-B9A1-1A1B-522C-1AFEF713AAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D723E2-B9A1-1A1B-522C-1AFEF713AAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D723E2-B9A1-1A1B-522C-1AFEF713AAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C20E896-705B-2E51-DC31-61FA6A6517DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C20E896-705B-2E51-DC31-61FA6A6517DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C20E896-705B-2E51-DC31-61FA6A6517DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C20E896-705B-2E51-DC31-61FA6A6517DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,3 @@
+Unity优化：
+1.AssetBundle压缩格式LZMA和LZ4，LZMA打补丁会比较慢，但是压缩比大
+2.7z_plugin在iOS上面要使用 -force_load $(PROJECT_DIR)/Frameworks/ExternalAssets/7zplugin/Plugins/iOS/P7zipUnity.framework/P7zipUnity
