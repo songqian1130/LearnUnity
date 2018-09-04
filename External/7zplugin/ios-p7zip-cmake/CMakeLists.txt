@@ -134,6 +134,7 @@ set_target_properties(${APP_NAME} PROPERTIES
                       XCODE_ATTRIBUTE_INSTALL_PATH "$(LOCAL_APPS_DIR)"
                       XCODE_ATTRIBUTE_ENABLE_TESTABILITY YES
                       XCODE_ATTRIBUTE_GCC_SYMBOLS_PRIVATE_EXTERN YES
+					  MACH_O_TYPE "staticlib"
 )
 
 # Include framework headers, needed to make "Build" Xcode action work.

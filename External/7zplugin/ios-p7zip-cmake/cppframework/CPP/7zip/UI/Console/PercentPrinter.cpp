@@ -6,6 +6,8 @@
 
 #include "PercentPrinter.h"
 
+#include "../../../../OC/p7zip_oc.h"
+
 static const unsigned kPercentsSize = 4;
 
 CPercentPrinter::~CPercentPrinter()
@@ -173,6 +175,7 @@ void CPercentPrinter::Print()
   {
     ClosePrint(false);
     *_so << _s;
+	p7zip_log(_s.Ptr()); //调用NSLog
     if (NeedFlush)
       _so->Flush();
     _printedString = _s;

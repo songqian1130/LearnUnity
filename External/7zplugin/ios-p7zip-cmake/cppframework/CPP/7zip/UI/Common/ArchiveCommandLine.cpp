@@ -883,7 +883,7 @@ void CArcCmdLineParser::Parse1(const UStringVector &commandStrings,
 
   if (parser[NKey::kDisablePercents].ThereIs
       || options.StdOutMode
-      || !options.IsStdOutTerminal)
+      /*|| !options.IsStdOutTerminal*/) // allow device percent output
     options.Number_for_Percents = k_OutStream_disabled;
 
   if (options.StdOutMode)
